@@ -1,0 +1,52 @@
+
+.filter-section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    column-gap: 1rem;
+    flex-wrap: wrap;
+}
+.ip-filter{
+    border: 1px solid #CCD7D4;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+.select-filter{
+    border: 1px solid #CCD7D4;
+    box-sizing: border-box;
+    border-radius: 100px;
+    min-width: 210px;
+}
+.btn-filter{
+    background: linear-gradient(270deg, #336152 0%, #66887D 100%);
+    border-radius: 100px;
+    color: #fff !important;
+    min-width: 130px;
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+.filter-ip-group > img{
+    position: absolute;
+    margin-top: .6rem;
+    margin-left: 1.2rem;
+}
+.filter-ip-group > input{
+    padding-left: 50px;
+
+}
+
+.filter-btn-group > a{
+   display: flex;
+   flex-direction: row;
+   column-gap: .5rem;
+   padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+.icon-btn-filter{
+    align-self: center;
+    display: flex;
+    height: 24px;
+}
+.btn-filter-add-user{
+    min-width: 185px !important;
+}

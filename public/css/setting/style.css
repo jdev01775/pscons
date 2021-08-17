@@ -1,0 +1,132 @@
+.container-setting{
+    background-color: #fff;
+    box-shadow: 1px 0px 12px rgba(116, 116, 116, 0.08);
+border-radius: 8px;
+    min-height: 364px;
+    /* height: 364px; */
+}
+
+.setting-menu{
+    width: 16rem;
+   
+    /* height: 100%; */
+    max-height: 364px;
+
+}
+.container-user{
+    padding: 25px;
+    border-left: 1px solid #E8E8E8;
+}
+
+.setting-header > .setting-title{
+    color:#1A4D3D ;
+    font-size: 24px !important;
+}
+.setting-create-container{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 15px;
+    padding: 32px;
+}
+/* permision */
+.setting-create-permision{
+    margin-top: 24px;
+}
+ #position_name{
+    max-width: 425px;
+ }
+ .settiing-postion-name-layout{
+    display: flex;
+    flex-direction: column;
+     width: 100%;
+     row-gap: 8px;
+ }
+ .setting-permision-container{
+    background: #F8F8F8;
+    width: 100%;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 8px 0;
+ }
+ .setting-permision-list{
+    margin-left: 2rem;
+ }
+/* end permision */
+
+ .setting-create-footer{
+     display: flex;
+     justify-content: center;
+     column-gap: 2rem;
+     margin-top:  40px ;
+     align-items: center;
+ }
+ .setting-create-footer > a{
+    display: flex;
+    flex-direction: row;
+    column-gap: .5rem;
+    padding-left: 30px !important;
+     padding-right: 30px !important;
+ }
+ .btn-accept{
+    background: linear-gradient(270deg, #336152 0%, #66887D 100%);
+    border-radius: 100px;
+    color: #fff !important;
+    min-width: 130px;
+    justify-content: center;
+}
+
+ .icon-btn-accept{
+     align-self: center;
+     display: flex;
+     height: 24px;
+ }
+ .btn-accept{
+     max-width: 155px !important;
+ }
+/*  */
+.btn-cancel{
+    background: none;
+    border-radius: 100px;
+    border: 1px solid #1A4D3D;
+    color: #1A4D3D !important;
+    min-width: 130px;
+    justify-content: center;
+}
+
+ .icon-btn-cancel{
+     align-self: center;
+     display: flex;
+     height: 18px;
+     justify-content: center;
+ }
+ .btn-cancel{
+     max-width: 155px !important;
+ }
+ 
+
+
+  .swal2-confirm{
+    background: linear-gradient(
+        270deg
+        , #66887D 0%, #336152 100%) !important;
+            box-shadow: 0px 0px 8px rgb(153 176 169 / 67%)!important;
+            border-radius: 100px!important;
+            min-width: 180px!important;
+  }
+
+
+  .swal2-deny{
+    border: 1px solid #1A4D3D  !important;
+    box-sizing: border-box  !important;
+    border-radius: 100px  !important;
+    background: #fff  !important;
+    color: #1A4D3D  !important;
+    min-width: 180px  !important;
+  }
+
+
+  .form-control-custom{
+    border-radius: 8px !important;
+    border: 1px solid #DCDCDC!important;
+}

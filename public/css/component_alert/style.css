@@ -1,0 +1,23 @@
+
+    .swal2-close{
+        display: flex;
+        background: #DCDCDC;
+        border-radius: 40px;
+        font-size: 33px;
+        width: 24px;
+        height: 24px;
+        color: #fff;
+        margin-right: 17px;
+        margin-top: 17px;
+    
+    }
+    .swal2-image {
+        margin: 3em auto 1em !important;
+    }
+    .swal2-html-container{
+        font-family: Prompt-Bold;
+    }
+    .swal2-actions{
+        flex-direction: row-reverse;
+        margin-bottom: 2rem;
+    }

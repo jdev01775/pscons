@@ -1,0 +1,16 @@
+ .icon-side-menu > #document >  svg > path{
+    fill: red;
+ }
+ .icon-sidebar-box{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 15px;
+     padding: 15px;
+ }
+
+ 
+ /* .icon-side-menu {
+    fill: red;
+ } */
+

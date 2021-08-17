@@ -1,0 +1,133 @@
+.project-all-layout{
+    display: flex;
+    column-gap: 16px;
+    width: 100%;
+}
+.project-layout{
+    display: flex;
+    column-gap: 2rem;
+    padding: 1rem;
+    background: #F8F8F8;
+    border-radius: 8px;
+}
+
+.project-checkbox-layout{
+    display: flex;
+    column-gap: 1rem;
+}
+
+.form-container{
+    row-gap: 1rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.from-type-layout{
+    min-height: auto !important;
+}
+.ip-plus-minus{
+    max-width: 10rem !important;
+    border: 1px solid #DCDCDC;
+    border-radius: 8px;
+    background: white;
+
+}
+.input-group-btn{
+    display: flex;
+    align-items: center;
+    padding: 0 0.5rem;
+}
+.btn-left{
+    height: 1.8rem;
+    border-right: 1px solid #dcdcdc;
+    align-self: center;
+    background: white;
+}
+.btn-right{
+    height: 1.8rem;
+    border-left: 1px solid #dcdcdc;
+    align-self: center;
+    background: white;
+
+}
+.input-plus-minus{
+    text-align: center;
+    background: white !important;
+}
+.form-amount-layout{
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+}
+.form-detail-layout{
+    display: flex;
+    column-gap: 2rem;
+    padding: 1rem;
+    background: #F8F8F8;
+    border-radius: 8px;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.installment-layout{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.cut-off-layout{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.btn-installment-no{
+    max-height: 2rem;
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+    min-width: 5.5rem !important;
+}
+.text-green{
+    color: #003927;
+}
+
+.w-installment-no{
+    width: 6rem;
+}
+.w-installment-percent{
+    width: 7rem;
+  
+}
+.w-cut-off-no{
+    width: 6rem;
+}
+.form-installment-no-list{
+    display: flex;
+    column-gap: 1rem;
+}
+
+.input-group-text{
+    background: white;
+    border-left: 0;
+
+}
+.input-br-0{
+    border-right: 0;
+}
+
+
+.cut-over-layout{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.btn-cut-over-no{
+    max-height: 2rem;
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+    min-width: 5.5rem !important;
+}
+
+.text-remove{
+    color: #EF5350;
+    text-decoration-line: underline;
+}

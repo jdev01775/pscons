@@ -1,0 +1,21 @@
+
+.project-detail{
+background-color: #F8F8F8;
+/* padding: 25px; */
+border-radius: 8px;
+flex-direction: column;
+}
+.project-detail-excel-layout{
+padding: 24px;
+display: flex;
+justify-content: space-between;
+width: 100%;
+border-bottom:1px solid #E8E8E8 ;
+}
+
+.project-detail-layout{
+padding: 24px;
+max-width:850px;
+}
+
+

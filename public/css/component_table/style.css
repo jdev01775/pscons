@@ -1,0 +1,99 @@
+.table-section {
+   margin-top: 25px;
+   overflow: hidden;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+ 
+#table_data > thead > tr{
+    background: #CCD7D4 !important;
+    max-height: 265px;
+}
+ 
+
+
+
+.page-pre > .page-link{
+    margin-right: 8px !important;
+    border-radius: 50px !important;
+    width: 32px !important;
+    height: 32px !important;
+}
+
+.float-right .pagination  {
+    column-gap: 0.09rem;
+}
+.float-right .pagination > .page-pre{
+    /* border: 1px solid #CCD7D4; */
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+}
+.float-right .pagination > .page-pre > a{
+  background: none !important;
+}
+
+.float-right .pagination > .page-next{
+    /* border: 1px solid #CCD7D4; */
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+}
+.float-right .pagination > .page-next > a{
+  background: none !important;
+}
+
+
+ 
+.pagination > .page-item{
+    margin: 0 1px !important;
+}
+.pagination > .page-item > a{
+    border-radius: 50px !important;
+    width: 32px !important;
+    height: 32px !important;
+    background: #fff !important;
+    border:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #CCD7D4;
+    font-size: 14px !important;
+}
+
+.pagination > .active > a{
+    border-radius: 50px !important;
+    width: 32px !important;
+    height: 32px !important;
+    background: #4D7568 !important;
+    border:0;
+    color: #fff !important;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.float-left .btn-secondary{
+background: #fff !important;
+border: 1px solid #CCD7D4;
+border-radius: 100px !important;
+color: #616161 !important;
+height: 32px !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.table-bordered th, .table-bordered td{
+    border : none !important ;
+  }
+  .table-haeder-bold th{
+     font-family: Prompt-Bold ;
+   }
+ 
+
+.bootstrap-table .fixed-table-container .fixed-table-body .fixed-table-loading .loading-wrap .loading-text {
+    font-size: 18px !important;
+}
